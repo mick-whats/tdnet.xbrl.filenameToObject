@@ -1,6 +1,6 @@
 {
   "name": "tdnet.xbrl.filename-to-object",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "node": ">=7.10.1"
   },
