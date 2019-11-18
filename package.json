@@ -1,0 +1,43 @@
+{
+  "name": "tdnet.xbrl.filename-to-object",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=7.10.1"
+  },
+  "description": "tdnetのxbrlファイルネームを解析します",
+  "keywords": [
+    "tdnet",
+    "xbrl",
+    "namespace"
+  ],
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:watch": "npm run test -- --watch",
+    "cover": "npm test -- --coverage"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.4",
+    "eslint-plugin-jsdoc": "^18.0.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "!**/__tests__/**"
+  ],
+  "homepage": "https://github.com/mick-whats/tdnet.xbrl.filenameToObject",
+  "bugs": "https://github.com/mick-whats/tdnet.xbrl.filenameToObject/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mick-whats/tdnet.xbrl.filenameToObject.git"
+  },
+  "license": "MIT",
+  "author": "mick-whats"
+}
